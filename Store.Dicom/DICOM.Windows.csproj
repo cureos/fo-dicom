@@ -100,22 +100,25 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="MetroLog">
-      <HintPath>..\packages\MetroLog.0.8.7.1\lib\win81\MetroLog.dll</HintPath>
+    <Reference Include="MetroLog, Version=0.8.8.0, Culture=neutral, PublicKeyToken=ba4ace74c3b410f3, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroLog.0.8.9\lib\win81\MetroLog.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MetroLog.Platform">
-      <HintPath>..\packages\MetroLog.0.8.7.1\lib\win81\MetroLog.Platform.dll</HintPath>
+    <Reference Include="MetroLog.Platform, Version=0.8.8.0, Culture=neutral, PublicKeyToken=ba4ace74c3b410f3, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroLog.0.8.9\lib\win81\MetroLog.Platform.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MetroLog.WinRT">
-      <HintPath>..\packages\MetroLog.0.8.7.1\lib\win81\MetroLog.WinRT.winmd</HintPath>
+    <Reference Include="MetroLog.WinRT, Version=0.8.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroLog.0.8.9\lib\win81\MetroLog.WinRT.winmd</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\rtbench\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Shim, Version=1.0.1.0, Culture=neutral, PublicKeyToken=c55ec16d10c4b366, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\shim.1.0.1.50427\lib\netcore451\Shim.dll</HintPath>
+      <HintPath>..\packages\shim.1.0.1.50804\lib\netcore451\Shim.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="WriteableBitmapEx.WinRT">
       <HintPath>..\packages\WriteableBitmapEx.1.5.0.0\lib\NetCore45\WriteableBitmapEx.WinRT.dll</HintPath>
