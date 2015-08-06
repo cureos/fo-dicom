@@ -1,4 +1,4 @@
-// Copyright (c) 2010-2013 Anders Gustafsson, Cureos AB.
+// Copyright (c) 2010-2015 Anders Gustafsson, Cureos AB.
 // This source is subject to the Microsoft Public License.
 // See http://www.microsoft.com/opensource/licenses.mspx#Ms-PL.
 // All other rights reserved.
